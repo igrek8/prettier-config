@@ -1,0 +1,34 @@
+{
+  "name": "@igrek8/prettier",
+  "version": "0.0.0",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    ".prettierrc.js"
+  ],
+  "main": ".prettierrc.js",
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "release": {
+    "extends": [
+      "@igrek8/semantic-release"
+    ]
+  },
+  "scripts": {
+    "format": "prettier --check \"**/*\""
+  },
+  "peerDependencies": {
+    "prettier": "^2"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "17.4.4",
+    "@igrek8/semantic-release": "1.0.0",
+    "husky": "8.0.3",
+    "prettier": "2.8.4"
+  }
+}
