@@ -29,6 +29,6 @@
     "@commitlint/cli": "17.6.1",
     "@commitlint/config-conventional": "17.6.6",
     "@igrek8/semantic-release-config": "1.0.11",
-    "prettier": "2.8.8"
+    "prettier": "3.0.0"
   }
 }
